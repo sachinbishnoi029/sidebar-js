@@ -34,7 +34,7 @@
 
 .relative {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .container {
@@ -141,7 +141,7 @@
     border-radius: 0px 16px 16px 0px;
     background: var(--white, #FFF);
     box-shadow: 9px 4px 26px 0px rgba(0, 0, 0, 0.06);
-    z-index: 2;
+    z-index: 3;
 }
 
 .overlay {
@@ -150,9 +150,11 @@
     height: 100%;
     top: 0;
     left: -100%;
-    background-color: #b9b9b9;
-    z-index: 1;
+    opacity: 0.25;
+    background: #000;
+    z-index: 2;
     cursor: pointer;
+
 
 }
 
@@ -164,6 +166,7 @@
     left: 0;
 
 }
-.justify-end{
+
+.justify-end {
     justify-content: end;
 }
